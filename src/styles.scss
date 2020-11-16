@@ -1,1 +1,9 @@
 /* You can add global styles to this file, and also import other style files */
+@import "~bootstrap/scss/bootstrap.scss";
+@import "~ngx-toastr/toastr-bs4-alert";
+
+body {
+  height: 100vh !important;
+  flex-direction: column !important;
+  display: flex !important;
+}
